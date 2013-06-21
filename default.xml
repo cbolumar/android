@@ -381,6 +381,9 @@
   <project path="vendor/sony" name="TeamCanjica/android_vendor_sony" remote="github" revision="cm10.1" />
   <project path="device/sony/montblanc-common" name="TeamCanjica/android_device_sony_montblanc-common" remote="github" revision="cm10.1" />
   <project path="device/sony/kumquat" name="TeamCanjica/android_device_sony_kumquat" remote="github" revision="cm10.1" />
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-10.1" />
+
+
   
 
 </manifest>
