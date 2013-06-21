@@ -383,7 +383,7 @@
   <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" revision="cm-10.1_staging" />
   <project path="device/samsung/janicep" name="TeamCanjica/android_device_samsung_janicep" revision="cm-10.1_staging" />
   
-  <project path="kernel/sony/u8500" name="diego-ch/android_kernel_sony_u8500" revision="cm10.1" remote="github" />
+  <project path="kernel/sony/u8500" name="TeamCanjica/android_kernel_sony_u8500" revision="cm10.1" remote="github" />
   <project path="vendor/sony" name="TeamCanjica/android_vendor_sony" revision="cm10.1" />
   <project path="device/sony/montblanc-common" name="TeamCanjica/android_device_sony_montblanc-common" revision="cm10.1" />
   <project path="device/sony/kumquat" name="TeamCanjica/android_device_sony_kumquat" revision="cm10.1" />
