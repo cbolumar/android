@@ -391,6 +391,7 @@
   <project path="device/sony/kumquat" name="TeamCanjica/android_device_sony_kumquat" remote="github" revision="cm10.1" />
   <project path="device/sony/lotus" name="TeamCanjica/android_device_sony_lotus" remote="github" revision="cm10.1" />
   <project path="device/sony/pepper" name="TeamCanjica/android_device_sony_pepper" remote="github" revision="cm10.1" />
+  <project path="device/sony/nypon" name="TeamCanjica/android_device_sony_nypon" remote="github" revision="cm10.1" />
   <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="jellybean" />
 
 
