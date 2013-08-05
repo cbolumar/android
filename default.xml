@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="16" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="DevSwift/android_build" remote="github" revision="cm-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -56,7 +56,10 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="DevSwift/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
+  <project path="external/bluetooth/hcidump" name="DevSwift/external_bluetooth_hcidump" remote="github" revision="cm-10.1" />
+  <project path="external/bluetooth/glib" name="DevSwift/external_bluetooth_glib" remote="github" revision="cm-10.1" />
+  <project path="external/bluetooth/bluez" name="DevSwift/external_bluetooth_bluez" remote="github" revision="cm-10.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -223,7 +226,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="TeamCanjica/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="DevSwift/android_frameworks_base" remote="github" revision="cm-10.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -278,7 +281,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="DevSwift/android_packages_apps_Bluetooth" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -290,7 +293,6 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
@@ -305,11 +307,11 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="DevSwift/android_packages_apps_Phone" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="DevSwift/android_packages_apps_Settings" remote="github" revision="cm-10.1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -370,7 +372,7 @@
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="TeamCanjica/android_system_core" />
+  <project path="system/core" name="DevSwift/android_system_core" remote="github" revision="cm-10.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="TeamCanjica/android_system_netd" />
