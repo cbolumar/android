@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="androidarmv6/android_build">
+  <project path="build" name="DevSwift/android_build-1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -383,7 +383,7 @@
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" />
-  <project path="system/core" name="DevSwift/android_system_core" remote="github" revision="cm-10.1" />
+  <project path="system/core" name="TeamCanjica/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="androidarmv6/android_system_netd" />
