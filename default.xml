@@ -395,4 +395,5 @@
   <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" revision="cm-10.1_staging" />
   <project path="device/samsung/janicep" name="TeamCanjica/android_device_samsung_janicep" revision="cm-10.1_staging" />
   <project path="device/samsung/codina" name="TeamCanjica/android_device_samsung_codina" revision="cm-10.1" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" revision="cm-10.1" />
 </manifest>
