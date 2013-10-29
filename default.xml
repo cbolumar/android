@@ -15,7 +15,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/phablet-saucy"
+  <default revision="phablet-saucy"
            remote="phablet"
            sync-c="true"
            sync-j="16" />
