@@ -7,16 +7,16 @@
 
   <remote  name="phablet"
            fetch="http://phablet.ubuntu.com"
-           review="review.cyanogenmod.org" />
+           revision="phablet-saucy" />
 
-<remote  name="github"
+  <remote  name="github"
            fetch="git://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="phablet-saucy"
-           remote="phablet"
+  <default revision="cm-10.1"
+           remote="github"
            sync-c="true"
            sync-j="16" />
 
@@ -131,10 +131,10 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold"/>
   <project path="tools/build" name="platform/tools/build" revision="refs/tags/android-4.2.2_r1"/>
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm"/>
-  <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master"/>
-  <project path="ubuntu/hybris" name="ubuntu/hybris" revision="refs/heads/master"/>
-  <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master"/>
-  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master"/>
+  <project path="ubuntu/assets" name="ubuntu/assets" remote="phablet" revision="refs/heads/master"/>
+  <project path="ubuntu/hybris" name="ubuntu/hybris" remote="phablet" revision="refs/heads/master"/>
+  <project path="ubuntu/platform-api" name="ubuntu/platform-api" remote="phablet" revision="refs/heads/master"/>
+  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" remote="phablet" revision="refs/heads/master"/>
 
   <project path="kernel/samsung/u8500" name="TeamCanjica/android_kernel_samsung_u8500" revision="phablet-saucy" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" revision="phablet-saucy" />
