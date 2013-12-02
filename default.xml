@@ -10,6 +10,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+  
+  <remote  name="CyanogenMod"
+           review="review.cyanogenmod.com"
+           fetch="https://github.com/CyanogenMod" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
