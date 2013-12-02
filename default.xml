@@ -417,7 +417,7 @@
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="omni-4.3" />
   <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" remote="github" revision="omni-4.3" />
   <!-- <project path="device/samsung/janicep" name="TeamCanjica/android_device_samsung_janicep" revision="cm-10.2" /> -->
-  <project path="device/samsung/codina" name="TeamCanjica/android_device_samsung_codina" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/codina" name="TeamCanjica/android_device_samsung_codina" remote="github" revision="omni-4.3" />
   <project path="kernel/samsung/codina" name="TeamCanjica/android_kernel_samsung_codina" remote="github" revision="cm-10.2" />
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-10.2" />
 
