@@ -27,7 +27,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="cts" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="jb-mr2.0-cts-release" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -88,6 +88,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
@@ -187,6 +188,7 @@
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
@@ -230,6 +232,8 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" groups="pdk" />
+  <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
+  <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
